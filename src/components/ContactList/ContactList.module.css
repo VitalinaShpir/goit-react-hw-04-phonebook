@@ -3,7 +3,7 @@
 display: flex;
 flex-direction: column;
 width: 100%;
-height: 120px;
+height: 165px;
 gap: 10px;
 overflow-y: scroll;
 
@@ -14,3 +14,9 @@ overflow-y: scroll;
     border: 1px solid rgba(157, 0, 157, 0.178);
     border-radius: 5px;
 }
+
+.contactList::-webkit-scrollbar-thumb {
+    background-color: rgba(157, 0, 157, 0.178);
+    border-radius: 5px;      
+    border: 3px solid rgba(157, 0, 157, 0.178);
+  }
